@@ -30,7 +30,7 @@ OpenStreetMap:
 ### Publicadores
 
 * [CartoDB](cartodb.com)
-* [JEO](http://cardume.github.com/jeo)
+* [JEO](http://cardume.github.com/jeo): [community (sandbox)](http://jeo.cardume.art.br/community), [código](http://github.com/cardume/jeo)
 * [Mapbox](mapbox.com)
 
 
