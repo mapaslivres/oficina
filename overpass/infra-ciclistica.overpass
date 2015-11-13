@@ -1,0 +1,27 @@
+[out:json][timeout:25];
+(
+    // ciclovias
+    way["highway"="cycleway"]({{bbox}});
+
+    // ciclofaixas
+    way[~"^cycleway:.*$"~"."]({{bbox}});
+
+    // estações de compartilhamento e paraciclos
+    way["amenity"~"bicycle"]({{bbox}});
+    node["amenity"~"bicycle"]({{bbox}});
+
+    // bicicletarias e lojas
+    way["shop"~"bicycle"]({{bbox}});
+    node["shop"~"bicycle"]({{bbox}});
+
+    // outras combinações de tags:
+    //   - bicycle=*
+    //   - oneway:bicycle=*
+    //   - bicycle_parking=*
+    //   - service:bicycle:*=*
+    way[~"bicycle"~"."]({{bbox}});
+    node[~"bicycle"~"."]({{bbox}});
+);
+out body;
+>;
+out skel qt;
