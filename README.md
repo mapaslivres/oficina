@@ -2,7 +2,7 @@ Informações para uma oficina de mapas livres.
 
 Dados para baixar:
 
-* [Ocorrências de trânsito em São Paulo em 2014]()
+* [Ocorrências de trânsito em São Paulo em 2014](https://github.com/mapaslivres/oficina/raw/master/dados/dados-oficina.zip)
 
 # Fontes de dados
 
